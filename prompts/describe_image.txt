@@ -1,0 +1,10 @@
+You are analyzing an image from a ski/snowboard instruction manual. Describe this image in detail in {language}.
+
+Focus on:
+1. What technique, skill, or concept is being demonstrated
+2. Body position, stance, and movement details relevant to instruction
+3. Terrain features, snow conditions, or environmental context if visible
+4. Any equipment details that are instructionally relevant
+5. Text, labels, or annotations visible in the image
+
+Provide a clear, concise description that would help a reader understand the instructional content of this image without seeing it. Keep the description to 2-4 sentences.

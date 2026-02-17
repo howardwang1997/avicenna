@@ -1,0 +1,20 @@
+Analyze this image and classify it as MEANINGFUL or NOT_MEANINGFUL for a ski instruction manual.
+
+MEANINGFUL (instructional content worth keeping):
+- Technical skiing/snowboarding action photos demonstrating technique
+- Terrain features, slope diagrams, or trail maps
+- Equipment photos showing gear setup or configuration
+- Teaching progression diagrams or flowcharts
+- Assessment rubrics or evaluation tables
+- Safety diagrams or hazard illustrations
+- Anatomical or biomechanical illustrations related to skiing
+
+NOT_MEANINGFUL (decorative/administrative elements to remove):
+- Organization or institution logos (CASI, CSIA, SBINZ, NZSIA, etc.)
+- Decorative page elements, borders, or backgrounds
+- Page headers, footers, or watermarks
+- Table of contents graphics or chapter dividers
+- Sponsor logos or advertising banners
+- Generic stock photos not related to instruction
+
+Respond with ONLY one word: "MEANINGFUL" or "NOT_MEANINGFUL"
