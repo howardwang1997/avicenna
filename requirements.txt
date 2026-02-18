@@ -1,0 +1,12 @@
+# Core dependencies
+mineru>=2.7
+langchain-openai>=1.1
+langchain-core>=1.2
+python-dotenv>=1.0
+loguru>=0.7
+Pillow>=10.0
+
+# VLM-transformers backend dependencies (for GPU)
+transformers>=4.40,<5.0
+torchvision
+accelerate
