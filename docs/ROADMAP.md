@@ -6,7 +6,7 @@
 
 ### 1.1 向量化入库
 
-- [ ] 将 `knowledge/` 下处理好的 Markdown 切分为语义 chunk（按标题/段落）
+- [ ] 将 `notes/` 下处理好的 Markdown 切分为语义 chunk（按标题/段落）
 - [ ] 使用 embedding 模型（如 `text-embedding-3-small` 或 `bge-m3`）生成向量
 - [ ] 存入向量数据库（Milvus / Chroma / Qdrant），附带 frontmatter 元数据作为过滤字段
 - [ ] 图片描述文本一并入库，支持以文搜图
