@@ -52,6 +52,6 @@ class AppConfig:
     mineru: MinerUConfig = field(default_factory=MinerUConfig)
     filter: FilterConfig = field(default_factory=FilterConfig)
     bookshelf_dir: Path = field(default_factory=lambda: _PROJECT_ROOT / "bookshelf")
-    output_dir: Path = field(default_factory=lambda: _PROJECT_ROOT / "knowledge")
+    output_dir: Path = field(default_factory=lambda: _PROJECT_ROOT / "notes")
     prompts_dir: Path = field(default_factory=lambda: _PROJECT_ROOT / "prompts")
     force_regenerate: bool = False

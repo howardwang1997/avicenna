@@ -29,7 +29,7 @@ bookshelf/*.pdf
 │   YAML frontmatter, final Markdown)      │
 └──────────────┬───────────────────────────┘
                ▼
-knowledge/{pdf_stem}/
+notes/{pdf_stem}/
   ├── content.md
   └── images/
 ```
@@ -100,11 +100,15 @@ avicenna/
 │   └── describe_image.txt # Image description prompt
 ├── docs/
 │   ├── CHANGELOG.md       # 工作记录
-│   └── ROADMAP.md         # 开发计划
+│   ├── ROADMAP.md         # 开发计划
+│   └── setup/             # 环境配置指南
+│       ├── miniconda.md   # Miniconda 安装 & conda 管理
+│       └── opencode.md    # OpenCode AI 编程助手
 ├── bookshelf/             # Input PDFs (git-ignored)
-├── knowledge/             # Output Markdown + images (git-ignored)
+├── notes/                 # Output Markdown + images (git-ignored)
 ├── .env                   # VLM API credentials (git-ignored)
 ├── .env.example           # Env template
+├── requirements.txt       # pip dependencies
 └── pyproject.toml
 ```
 
@@ -118,7 +122,7 @@ avicenna/
 
 ## Output Format
 
-Each processed PDF produces `knowledge/{org}/{pdf_stem}/content.md`:
+Each processed PDF produces `notes/{org}/{pdf_stem}/content.md`:
 
 ```markdown
 ---
