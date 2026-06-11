@@ -211,3 +211,7 @@ bookshelf/
 
 # Processing output (regenerable)
 notes/
+
+# Research reports (local only)
+report/
+knowledge/ski/
